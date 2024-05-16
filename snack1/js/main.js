@@ -41,19 +41,13 @@ const bikeArrayobj = [{
 },]
 
 
-for (let i = 0; i < bikeArrayobj.length - 1; i++) {
-    let numeroMin = bikeArrayobj[i].peso
-    console.log(numeroMin)
-
-
-}
 
 
 
 
-// let result = bikeArrayobj.filter((bike) => {
-
-//     if (bikeArrayobj.name === 'mont') {
-//         console.log('1');
-//     }
-// })
+let result = bikeArrayobj.filter((bike) => {
+    console.log(bike)
+    if (bike.peso -) {
+        console.log('hai trovato la mont');
+    }
+})
