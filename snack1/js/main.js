@@ -40,14 +40,28 @@ const bikeArrayobj = [{
     peso: 18.2,
 },]
 
+let persominore = bikeArrayobj[0].peso;
+let position = 0;
 
+for (let i = 0; i < bikeArrayobj.length - 1; i++) {
+    let numeroMin = bikeArrayobj[i].peso
 
+    if (numeroMin < persominore) {
+        persominore = numeroMin;
+        position = [i];
 
-
-
-let result = bikeArrayobj.filter((bike) => {
-    console.log(bike)
-    if (bike.peso -) {
-        console.log('hai trovato la mont');
     }
-})
+
+
+}
+let nome = bikeArrayobj[position].nome;
+console.log(nome);
+console.log(persominore);
+
+
+// let result = bikeArrayobj.filter((bike) => {
+
+//     if (bikeArrayobj.name === 'mont') {
+//         console.log('1');
+//     }
+// })
